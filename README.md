@@ -157,4 +157,3 @@ Unauthorized usage against systems without explicit permission is **illegal** an
 * **Himanshu Gaur**
 * **Tanya Bharti**
 * **Rananjay Singh Chauhan**
-* Metaversity Club @ VIT Bhopal
