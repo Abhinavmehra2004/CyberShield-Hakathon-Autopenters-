@@ -68,13 +68,122 @@ AutoPent is a first-of-its-kind framework that redefines automated offensive sec
 
 ---
 
-## Methodology
+# AutoPent Project Workflow: A Seven-Step Process
 
-1. **Reconnaissance** → Automated target mapping
-2. **Vulnerability Scanning** → Weakness identification
-3. **Exploitation & Privilege Escalation** → Automated attack simulation
-4. **AI Analysis** → Risk evaluation & patch recommendation
-5. **Reporting** → Compliance-ready documentation
+This document outlines the seven key stages of the AutoPent project, from initial reconnaissance to the final user interface. Each step leverages specific tools and methodologies to create a comprehensive, automated offensive security framework.
+
+---
+
+## Step 1: Reconnaissance & Target Discovery
+
+This initial phase involves collecting as much information as possible about the target system to identify potential attack vectors before launching any exploits. The primary goal is to map the attack surface by extracting DNS records, IP addresses, and exposed services.
+
+For this, we will use the following OSINT (Open-Source Intelligence) API keys:
+
+* **Shodan:** Scans the internet for open ports and exposed devices. It is best suited for IoT, open ports, and banner grabbing.
+* **BinaryEdge:** Provides IP scanning data and device fingerprinting. It excels at mass scanning, which helps in detecting data vulnerabilities, and is also useful for botnet and malware hunting.
+* **Onyphe:** Specializes in threat intelligence and darknet analysis, providing capabilities like dark web tracking.
+
+---
+
+## Step 2: Vulnerability Scanning
+
+This process automates the detection of misconfigurations, outdated software, and exploitable vulnerabilities in web applications, networks, and databases.
+
+* **NIKTO:**
+    * **Key Features:** Checks for outdated software versions and security misconfigurations, identifies exposed sensitive files (e.g., admin panels, backup files), and provides fast scanning with minimal false positives.
+    * **Purpose:** Helps in the early detection of security loopholes before manual testing.
+
+* **SQLMap:**
+    * **Key Features:** Automatic SQL Injection testing, database enumeration, supports multiple database types, and can bypass security measures.
+    * **Purpose:** Helps to uncover sensitive data leaks, unauthorized access, and database misconfigurations.
+
+* **Nmap:**
+    * **Key Features:** Port scanning, vulnerability detection (via NSE scripts), service fingerprinting, and Firewall/IDS detection.
+    * **Purpose:** Crucial for identifying weak services, misconfigurations, and open ports on a network.
+
+---
+
+## Step 3: Exploitation & Attack Automation
+
+This step aims to determine the actual risk posed by identified vulnerabilities by simulating real-world cyberattacks in a controlled manner.
+
+* **Socket:**
+    * Python's socket programming allows for creating custom exploits to attack vulnerable systems.
+    * Attackers can send malicious payloads to web servers, databases, or SSH services.
+    * **Project Feature:** It converts a target URL into its IP address, which is then fed to the Metasploit framework for exploitation attacks. This simplifies the process for the user, who only needs to provide a URL.
+
+* **Metasploit:**
+    * One of the most widely used penetration testing frameworks that helps security professionals discover, exploit, and validate vulnerabilities.
+    * It automates vulnerability exploitation, payload delivery, and post-exploitation actions.
+    * **Integration:** It uses an RPC server to connect to a Python script, which automates the exploitation process and can cycle through multiple payloads.
+
+---
+
+## Step 4: Privilege Escalation
+
+Privilege escalation is the process of gaining higher-level access to a system or network, typically moving from a low-privileged user to an administrator or root user. This is achieved by exploiting security misconfigurations, vulnerabilities, or weak permissions.
+
+* **WinPEAS (Windows Privilege Escalation Awesome Scripts):**
+    * Detects weak file permissions, unquoted service paths, and passwords stored in plaintext.
+    * Identifies Windows vulnerabilities that allow privilege escalation.
+    * Finds misconfigured services, registry settings, and scheduled tasks.
+
+* **LinPEAS (Linux Privilege Escalation Awesome Scripts):**
+    * Detects sudo misconfigurations, SUID binaries, and writable files.
+    * Finds known kernel exploits that allow for privilege escalation.
+    * Identifies hardcoded credentials and environment variables containing sensitive data.
+
+---
+
+## Step 5: Source Code Analysis
+
+This is the process of examining application code to identify security vulnerabilities, logic flaws, and coding errors that could be exploited by attackers.
+
+* **Haiku (Claude 3.5):**
+    * An AI-powered static code analysis tool that helps developers identify security vulnerabilities and coding errors.
+    * Supports multiple programming languages (e.g., Java, Python, JavaScript).
+    * **Claude 3.5 Haiku** is the next-generation model, offering greater speed and improved skill across the board. It provides more efficient source code analysis and gives more detailed insights into found vulnerabilities.
+    * **Benefit:** Provides fix recommendations for vulnerabilities and helps automate secure code reviews in DevSecOps pipelines.
+
+---
+
+## Step 6: AI-Powered Security Analysis & Reporting
+
+This final analysis step consolidates all findings into a comprehensive and intelligent report. The process is handled by the `generate_security_report()` function.
+
+1.  **Data Collection:** All results from Reconnaissance, Vulnerability Scanning, Exploitation, and Source Code Analysis are stored as variables.
+2.  **AI-Powered Analysis:** The **LLaMA model** is used to analyze the collected data. It takes all the results as a prompt and generates a summary with actionable recommendations.
+3.  **HTML Report Generation:** The report is first created using HTML, with all data formatted using headings, paragraphs, and pre-formatted text tags for clarity.
+4.  **Convert to PDF:** The `pdfkit` library is used to convert the generated HTML report into a final PDF file for portability and easy sharing.
+
+---
+
+## Step 7: User Interface and User Experience (UI/UX)
+
+A graphical user interface (GUI) is used to make the framework accessible and easy for users to navigate. It provides a visual representation of the modules running in the backend.
+
+* **Key Features:**
+    * **Integrated Security Testing:** A single dashboard to launch and monitor all tests.
+    * **Report Generation & Export:** Saves results as PDF or text files, allowing users to easily find and review the reports and see which modules were successful.
+
+* **Flask:**
+    * A lightweight web framework used for the backend.
+    * **Handles HTTP Requests:** Connects the front-end UI to the backend modules.
+    * **Supports API Calls:** Enables the remote execution of penetration testing tasks.
+    * **Integrates with Databases & Logging Systems:** Stores pentesting reports, providing access to historical data.
+
+* **PyQt5:**
+    * A set of Python bindings for the Qt application framework, used to build the GUI.
+    * **Cross-Platform & Feature-Rich:** Build GUI applications for Windows, macOS, and Linux with over 600 built-in widgets.
+    * **Event-Driven Programming:** Uses a signals and slots mechanism for seamless event handling.
+    * **Drag & Drop UI with Qt Designer:** Allows for visual creation of UIs, which can then be converted into Python code.
+
+---
+
+## Workflow Diagram
+
+Here is a text-based representation of the project workflow:
 
 ---
 
