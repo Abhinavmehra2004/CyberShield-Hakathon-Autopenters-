@@ -6,8 +6,8 @@ METASPLOIT_RPC_PORT = int(os.getenv("METASPLOIT_RPC_PORT" ))
 METASPLOIT_RPC_PASS = os.getenv("METASPLOIT_RPC_PASS" )
 
 # Attack Machine Details
-LHOST = os.getenv("LHOST", "172.25.162.99")
-LPORT = int(os.getenv("LPORT", 4444))  # Reverse shell listener port
+LHOST = os.getenv("LHOST")
+LPORT = int(os.getenv("LPORT"))  # Reverse shell listener port
 
 # API Keys for Reconnaissance
 SHODAN_API_KEY = os.getenv("SHODAN_API_KEY")
