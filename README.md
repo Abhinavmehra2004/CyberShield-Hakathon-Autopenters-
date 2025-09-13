@@ -1,120 +1,160 @@
-# CyberShield Hakathon - Autopenters
+# 🚀 AutoPent – Automated Penetration Testing Framework
 
-## Table of Contents
-- [CyberShield Hakathon - Autopenters](#cybershield-hakathon---autopenters)
-  - [Table of Contents](#-table-of-contents)
-  - [Project Overview](#-project-overview)
-  - [Features](#-features)
-  - [Technologies and Tools](#️-technologies-and-tools)
-  - [Project Structure](#-project-structure)
-  - [Getting Started](#-getting-started)
-  - [Contributing](#-contributing)
-  - [License](#-license)
-  - [The Team](#-the-team)
+## 📌 Overview
 
-##  Project Overview
+**AutoPent** is an **AI-powered penetration testing framework** designed to automate the complete security testing lifecycle.
+It combines **reconnaissance, vulnerability scanning, exploitation, privilege escalation, AI-driven analysis, and automated reporting** into a single integrated platform.
 
-**Autopenters** is a project developed for the CyberShield Hakathon. The goal of this project is to automate various penetration testing tasks to identify and report vulnerabilities in a systematic and efficient manner. This project leverages a combination of open-source tools and custom scripts to create a comprehensive security testing framework.
+Unlike traditional tools, AutoPent leverages **LLM (LLaMA 3.1)** to provide intelligent recommendations, generate remediation steps, and analyze vulnerabilities dynamically.
 
-The project aims to streamline the penetration testing workflow, from initial reconnaissance to final reporting, enabling security professionals to focus on critical vulnerabilities and remediation strategies.
+---
 
-##  Features
+## ⚡ Key Features
 
-Based on the tools and technologies used, this project has the following capabilities:
+* 🔍 **Automated Reconnaissance** – Domain, subdomain, and service discovery.
+* 🛡 **Vulnerability Scanning** – Automated scans using Nmap, OpenVAS, and custom scripts.
+* 🎯 **Exploitation Engine** – Metasploit-based automated exploitation with controlled payloads.
+* 🔑 **Privilege Escalation** – Post-exploitation privilege escalation & persistence detection.
+* 🤖 **AI Security Analysis** – LLaMA 3.1 for intelligent vulnerability assessment & mitigation strategies.
+* 📑 **Automated Reports** – Professional, compliance-ready PDF/HTML reports.
+* 🎨 **Interactive GUI** – PyQt5-based dashboard for intuitive control and monitoring.
 
-*   **Automated Reconnaissance:** Utilizes tools like Shodan, Nmap, and OSINT platforms to gather information about target systems.
-*   **Vulnerability Scanning:** Employs scanners like Nikto and OWASP ZAP to identify common web application vulnerabilities.
-*   **Exploitation:** Integrates with frameworks like Metasploit for automated exploitation of known vulnerabilities.
-*   **SQL Injection Testing:** Uses sqlmap to perform automated SQL injection and database takeover.
-*   **Custom Scripting:** Leverages Python with libraries like `pwntools`, `impacket`, and `scapy` for custom exploit development and network interaction.
-*   **Privilege Escalation:** Includes scripts for privilege escalation checks on both Linux and Windows systems.
-*   **Automated Reporting:** Generates comprehensive reports in PDF format using libraries like ReportLab and WeasyPrint.
+---
 
-##  Technologies and Tools
+## ✨ The AutoPent Advantage: A New Paradigm in Security
 
-This project is built using a variety of open-source tools and technologies:
+AutoPent isn't just another security tool; it is a **first-of-its-kind framework** that fundamentally redefines automated offensive security. It bridges the critical gap between static scanning and dynamic, intelligent analysis, creating a new category of security tooling.
 
-| Category              | Tools                                                                                             |
-| --------------------- | ------------------------------------------------------------------------------------------------- |
-| **OSINT**             | Shodan, Onyphe, BinaryEdge                                                                        |
-| **Scanning**          | Nmap, Nikto, OWASP ZAP                                                                            |
-| **Exploitation**      | Metasploit Framework, sqlmap                                                                      |
-| **Core Language**     | Python                                                                                            |
-| **Python Libraries**  | `pwntools`, `impacket`, `scapy`, `requests`, `BeautifulSoup4`, `selenium`                           |
-| **Privilege Escalation** | PEASS-ng (linPEAS / winPEAS)                                                                      |
-| **AI/ML**             | LLaMA, llama.cpp                                                                                  |
-| **GUI**               | PyQt5, Flask                                                                                      |
-| **Reporting**         | ReportLab, FPDF, WeasyPrint, wkhtmltopdf                                                          |
+*   **True End-to-End Integration:** While most tools focus on one phase (like scanning or reporting), AutoPent is the only framework that seamlessly integrates the entire workflow: from initial reconnaissance and multi-layered scanning to automated exploitation, privilege escalation, and AI-driven reporting.
 
-##  Project Structure
+*   **AI-Powered Decision Making:** This is what makes AutoPent truly unique. It is the first open-source framework to embed a powerful Large Language Model (**LLaMA 3.1**) at its core. It doesn't just find vulnerabilities; it *understands* them in context, prioritizes risks, and generates actionable remediation strategies that go far beyond static rule-based outputs.
 
-The repository is organized as follows:
+*   **From Data Overload to Actionable Intelligence:** Traditional tools produce thousands of lines of output, leaving the analysis to the user. AutoPent’s AI engine processes this raw data, correlates findings from different modules, and delivers a prioritized list of credible, exploitable threats. It transforms noise into clear, actionable intelligence.
 
-```
-.
-├── Documents/
-│   ├── Autopent Pitch Deck.pdf
-│   ├── Autopent_SRS.pdf
-│   ├── Open-Source.txt
-│   ├── Porject_Report (1).pdf
-│   ├── Research_Papers.pdf
-│   ├── Sample_Report.pdf
-│   └── Temp.txt
-├── README.md
-├── SampleVideo/
-│   ├── sample.mp4
-│   └── Temp.txt
-└── SourceCode/
-    └── Temp.txt
-```
+*   **A Unified Command Center:** By integrating a powerful backend with an intuitive **PyQt5 GUI**, AutoPent provides a single, unified dashboard for orchestrating complex penetration tests. This makes advanced security testing accessible without forcing users to master a dozen different command-line tools and manually manage their outputs.
 
-*   **`Documents/`**: Contains all project-related documentation, including the pitch deck, software requirements specification (SRS), reports, and research papers.
-*   **`SourceCode/`**: Contains the source code for the Autopenters project.
-*   **`SampleVideo/`**: Includes a sample video demonstrating the project's functionality.
-*   **`README.md`**: This file, providing an overview of the project.
+---
 
-##  Getting Started
+## 🛠️ Tech Stack
 
-To get a local copy up and running, follow these simple steps.
+* **Languages:** Python 3.11
+* **Frameworks:** PyQt5, Flask (for backend APIs)
+* **Libraries:**
+
+  * Recon: `scapy`, `sublist3r`, `shodan`
+  * Scanning: `nmap`, `openvas_lib`
+  * Exploitation: `msfrpc`, `pwntools`
+  * AI/ML: `transformers`, `llama-index`, `langchain`
+  * Reporting: `reportlab`, `jinja2`, `pdfkit`
+* **Databases:** SQLite for session & scan data
+* **AI Model:** **LLaMA 3.1** for contextual security insights
+
+---
+
+## 🔄 Methodology
+
+1. **Reconnaissance** → Automated target mapping
+2. **Vulnerability Scanning** → Weakness identification
+3. **Exploitation & Privilege Escalation** → Automated attack simulation
+4. **AI Analysis** → Risk evaluation & patch recommendation
+5. **Reporting** → Compliance-ready documentation
+
+---
+
+## 📊 Why AutoPent?
+
+| Feature                     | Existing Tools | AutoPent      |
+| --------------------------- | -------------- | ------------- |
+| Recon & Scanning            | ✔              | ✔             |
+| Exploitation                | Limited        | ✔ Automated   |
+| Privilege Escalation        | Manual         | ✔ Automated   |
+| AI-Driven Security Insights | ❌              | ✔ (LLaMA 3.1) |
+| Integrated GUI              | ❌              | ✔             |
+| End-to-End Automation       | ❌              | ✔             |
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get a local copy up and running.
 
 ### Prerequisites
 
-This project requires Python and several other tools to be installed. A detailed list of dependencies can be found in the `Documents/Open-Source.txt` file.
+*   Python 3.x
+*   External tools like `nmap`, `nikto`, and `sqlmap` should be installed and available in your system's PATH.
 
 ### Installation
 
-1.  Clone the repo
+1.  **Clone the repository:**
     ```sh
     git clone https://github.com/Abhinavmehra2004/CyberShield-Hakathon-Autopenters-.git
     ```
-2.  Install the required packages.
+
+2.  **Navigate to the source code directory:**
     ```sh
-    # Detailed installation instructions will be added here.
+    cd CyberShield-Hakathon-Autopenters-/SourceCode
     ```
 
-### Usage
+3.  **Create and activate a virtual environment (recommended):**
+    ```sh
+    python -m venv venv
+    # On Windows
+    venv\Scripts\activate
+    # On macOS/Linux
+    source venv/bin/activate
+    ```
 
-```sh
-# Instructions on how to run the tool will be added here.
-```
+4.  **Install the required Python packages:**
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-##  Contributing
+---
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+## 💻 Usage
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+1.  **Run the application from the `SourceCode` directory:**
+    ```sh
+    python autopent.py
+    ```
 
-##  License
+2.  **Enter the target URL** in the input field (e.g., `http://example.com`).
 
-Distributed under the MIT License. See `LICENSE` for more information.
+3.  **Click the "Start Security Test" button** to begin the automated penetration test.
 
-##  The Team
+4.  The progress will be displayed in the text area. Once the test is complete, you can **download the final report** using the "Download Report" button.
 
-*   **Himanshu Gaur** (23BCY10127) - *Leader*
-*   **Abhinav Mehra** (23BCY10015)
-*   **Tanya Bharti** (23BCE11555)
-*   **Rananjay Singh Chauhan** (23BAI10080)
+---
+
+## 🔐 Use Cases
+
+* **Cyber Forensics & Incident Response**
+* **Enterprise Security Audits**
+* **Government & Law Enforcement Cyber Operations**
+* **Education & Training in Ethical Hacking**
+
+---
+
+## ⚠️ Disclaimer
+
+AutoPent is developed **strictly for ethical and authorized penetration testing**.
+Unauthorized usage against systems without explicit permission is **illegal** and punishable under **Indian IT Act (2000/2008 amendments)** and global cybercrime laws.
+
+---
+
+## 📌 Roadmap
+
+* [ ] Cloud Infrastructure Security Module
+* [ ] Real-time Threat Intelligence Integration
+* [ ] Mobile App Pentesting Support
+* [ ] Multi-user Collaboration Dashboard
+
+---
+
+## 👥 Contributors
+
+* **Abhinav Mehra** – Project Lead & Developer
+* **Himanshu Gaur**
+* **Tanya Bharti**
+* **Rananjay Singh Chauhan**
+* Metaversity Club @ VIT Bhopal
