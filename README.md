@@ -23,15 +23,32 @@ Unlike traditional tools, AutoPent leverages **LLM (LLaMA 3.1)** to provide inte
 
 ## The AutoPent Advantage: A New Paradigm in Security
 
-AutoPent isn't just another security tool; it is a **first-of-its-kind framework** that fundamentally redefines automated offensive security. It bridges the critical gap between static scanning and dynamic, intelligent analysis, creating a new category of security tooling.
+# Key Features of AutoPent
 
-*   **True End-to-End Integration:** While most tools focus on one phase (like scanning or reporting), AutoPent is the only framework that seamlessly integrates the entire workflow: from initial reconnaissance and multi-layered scanning to automated exploitation, privilege escalation, and AI-driven reporting.
+AutoPent is a first-of-its-kind framework that redefines automated offensive security. 
 
-*   **AI-Powered Decision Making:** This is what makes AutoPent truly unique. It is the first open-source framework to embed a powerful Large Language Model (**LLaMA 3.1**) at its core. It doesn't just find vulnerabilities; it *understands* them in context, prioritizes risks, and generates actionable remediation strategies that go far beyond static rule-based outputs.
+* **First-of-its-Kind Framework:**
+    It introduces a new category of security tooling by bridging the gap between static scanning and dynamic, intelligent analysis.
 
-*   **From Data Overload to Actionable Intelligence:** Traditional tools produce thousands of lines of output, leaving the analysis to the user. AutoPent’s AI engine processes this raw data, correlates findings from different modules, and delivers a prioritized list of credible, exploitable threats. It transforms noise into clear, actionable intelligence.
+* **True End-to-End Integration:**
+    AutoPent is a single, seamless framework that manages the entire offensive security workflow, including:
+    * Reconnaissance
+    * Multi-layered scanning
+    * Automated exploitation
+    * Privilege escalation
+    * AI-driven reporting
 
-*   **A Unified Command Center:** By integrating a powerful backend with an intuitive **PyQt5 GUI**, AutoPent provides a single, unified dashboard for orchestrating complex penetration tests. This makes advanced security testing accessible without forcing users to master a dozen different command-line tools and manually manage their outputs.
+* **AI-Powered Decision Making:**
+    It is the first open-source framework to use a Large Language Model (LLaMA 3.1) at its core. This allows it to:
+    * **Understand** vulnerabilities in context.
+    * Prioritize risks intelligently.
+    * Generate actionable remediation strategies.
+
+* **From Data to Intelligence:**
+    The AI engine processes raw scan data and correlates findings to transform security "noise" into a clear, prioritized list of exploitable threats.
+
+* **Unified Command Center:**
+    It features an intuitive PyQt5 GUI that acts as a single dashboard for managing complex penetration tests, making advanced security accessible without juggling multiple command-line tools.
 
 ---
 
