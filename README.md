@@ -1,24 +1,24 @@
 # CyberShield Hakathon - Autopenters
 
-## 🚩 Table of Contents
+## Table of Contents
 - [CyberShield Hakathon - Autopenters](#cybershield-hakathon---autopenters)
-  - [ Table of Contents](#-table-of-contents)
-  - [✨ Project Overview](#-project-overview)
-  - [🎯 Features](#-features)
-  - [🛠️ Technologies and Tools](#️-technologies-and-tools)
-  - [📂 Project Structure](#-project-structure)
-  - [🚀 Getting Started](#-getting-started)
-  - [🤝 Contributing](#-contributing)
-  - [📜 License](#-license)
-  - [🧑‍💻 The Team](#-the-team)
+  - [Table of Contents](#-table-of-contents)
+  - [Project Overview](#-project-overview)
+  - [Features](#-features)
+  - [Technologies and Tools](#️-technologies-and-tools)
+  - [Project Structure](#-project-structure)
+  - [Getting Started](#-getting-started)
+  - [Contributing](#-contributing)
+  - [License](#-license)
+  - [The Team](#-the-team)
 
-## ✨ Project Overview
+##  Project Overview
 
 **Autopenters** is a project developed for the CyberShield Hakathon. The goal of this project is to automate various penetration testing tasks to identify and report vulnerabilities in a systematic and efficient manner. This project leverages a combination of open-source tools and custom scripts to create a comprehensive security testing framework.
 
 The project aims to streamline the penetration testing workflow, from initial reconnaissance to final reporting, enabling security professionals to focus on critical vulnerabilities and remediation strategies.
 
-## 🎯 Features
+##  Features
 
 Based on the tools and technologies used, this project has the following capabilities:
 
@@ -30,7 +30,7 @@ Based on the tools and technologies used, this project has the following capabil
 *   **Privilege Escalation:** Includes scripts for privilege escalation checks on both Linux and Windows systems.
 *   **Automated Reporting:** Generates comprehensive reports in PDF format using libraries like ReportLab and WeasyPrint.
 
-## 🛠️ Technologies and Tools
+##  Technologies and Tools
 
 This project is built using a variety of open-source tools and technologies:
 
@@ -46,7 +46,7 @@ This project is built using a variety of open-source tools and technologies:
 | **GUI**               | PyQt5, Flask                                                                                      |
 | **Reporting**         | ReportLab, FPDF, WeasyPrint, wkhtmltopdf                                                          |
 
-## 📂 Project Structure
+##  Project Structure
 
 The repository is organized as follows:
 
@@ -73,7 +73,7 @@ The repository is organized as follows:
 *   **`SampleVideo/`**: Includes a sample video demonstrating the project's functionality.
 *   **`README.md`**: This file, providing an overview of the project.
 
-## 🚀 Getting Started
+##  Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
@@ -98,7 +98,7 @@ This project requires Python and several other tools to be installed. A detailed
 # Instructions on how to run the tool will be added here.
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -108,11 +108,11 @@ Contributions are what make the open-source community such an amazing place to l
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-## 📜 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## 🧑‍💻 The Team
+##  The Team
 
 *   **Himanshu Gaur** (23BCY10127) - *Leader*
 *   **Abhinav Mehra** (23BCY10015)
