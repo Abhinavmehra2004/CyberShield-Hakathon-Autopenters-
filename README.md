@@ -2,7 +2,7 @@
 
 ## 🚩 Table of Contents
 - [CyberShield Hakathon - Autopenters](#cybershield-hakathon---autopenters)
-  - [🚩 Table of Contents](#-table-of-contents)
+  - [ Table of Contents](#-table-of-contents)
   - [✨ Project Overview](#-project-overview)
   - [🎯 Features](#-features)
   - [🛠️ Technologies and Tools](#️-technologies-and-tools)
