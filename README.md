@@ -1,4 +1,4 @@
-# AutoPent – Automated Penetration Testing Framework
+![WhatsApp Image 2025-08-24 at 16 55 46_fc85ad18](https://github.com/user-attachments/assets/13df7e29-c289-45f2-9dd6-16773d7139d7)# AutoPent – Automated Penetration Testing Framework
 
 ## Overview
 
@@ -187,14 +187,8 @@ A graphical user interface (GUI) is used to make the framework accessible and ea
 
 ## Why AutoPent?
 
-| Feature                     | Existing Tools | AutoPent      |
-| --------------------------- | -------------- | ------------- |
-| Recon & Scanning            | ✔              | ✔             |
-| Exploitation                | Limited        | ✔ Automated   |
-| Privilege Escalation        | Manual         | ✔ Automated   |
-| AI-Driven Security Insights | ❌              | ✔ (LLaMA 3.1) |
-| Integrated GUI              | ❌              | ✔             |
-| End-to-End Automation       | ❌              | ✔             |
+![WhatsApp Image 2025-08-24 at 16 55 46_fc85ad18](https://github.com/user-attachments/assets/98460812-1cb4-45cc-9b6d-778f3cfb55b1)
+
 
 ---
 
