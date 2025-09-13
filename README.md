@@ -142,7 +142,7 @@ Unauthorized usage against systems without explicit permission is **illegal** an
 
 ---
 
-## Roadmap
+## Future Scope
 
 * [ ] Cloud Infrastructure Security Module
 * [ ] Real-time Threat Intelligence Integration
