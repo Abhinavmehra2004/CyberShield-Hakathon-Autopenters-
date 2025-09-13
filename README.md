@@ -153,7 +153,7 @@ Unauthorized usage against systems without explicit permission is **illegal** an
 
 ## Contributors
 
-* **Abhinav Mehra** – Project Lead & Developer
+* **Abhinav Mehra**
 * **Himanshu Gaur**
 * **Tanya Bharti**
 * **Rananjay Singh Chauhan**
