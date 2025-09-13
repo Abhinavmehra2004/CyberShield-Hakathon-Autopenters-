@@ -68,7 +68,7 @@ AutoPent is a first-of-its-kind framework that redefines automated offensive sec
 
 ---
 
-# AutoPent Project Workflow: A Seven-Step Process
+## AutoPent Project Workflow: A Seven-Step Process
 
 This document outlines the seven key stages of the AutoPent project, from initial reconnaissance to the final user interface. Each step leverages specific tools and methodologies to create a comprehensive, automated offensive security framework.
 
@@ -181,9 +181,7 @@ A graphical user interface (GUI) is used to make the framework accessible and ea
 
 ---
 
-## Workflow Diagram
-
-Here is a text-based representation of the project workflow:
+<img width="1395" height="710" alt="Screenshot 2025-09-14 022436" src="https://github.com/user-attachments/assets/eb80fc1b-6569-43dc-94cb-aa73a46baf90" />
 
 ---
 
