@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-08-24 at 16 55 46_fc85ad18](https://github.com/user-attachments/assets/13df7e29-c289-45f2-9dd6-16773d7139d7)# AutoPent – Automated Penetration Testing Framework
+# AutoPent – Automated Penetration Testing Framework
 
 ## Overview
 
