@@ -1,6 +1,6 @@
-# 🚀 AutoPent – Automated Penetration Testing Framework
+# AutoPent – Automated Penetration Testing Framework
 
-## 📌 Overview
+## Overview
 
 **AutoPent** is an **AI-powered penetration testing framework** designed to automate the complete security testing lifecycle.
 It combines **reconnaissance, vulnerability scanning, exploitation, privilege escalation, AI-driven analysis, and automated reporting** into a single integrated platform.
@@ -9,19 +9,19 @@ Unlike traditional tools, AutoPent leverages **LLM (LLaMA 3.1)** to provide inte
 
 ---
 
-## ⚡ Key Features
+## Key Features
 
-* 🔍 **Automated Reconnaissance** – Domain, subdomain, and service discovery.
-* 🛡 **Vulnerability Scanning** – Automated scans using Nmap, OpenVAS, and custom scripts.
-* 🎯 **Exploitation Engine** – Metasploit-based automated exploitation with controlled payloads.
-* 🔑 **Privilege Escalation** – Post-exploitation privilege escalation & persistence detection.
-* 🤖 **AI Security Analysis** – LLaMA 3.1 for intelligent vulnerability assessment & mitigation strategies.
-* 📑 **Automated Reports** – Professional, compliance-ready PDF/HTML reports.
-* 🎨 **Interactive GUI** – PyQt5-based dashboard for intuitive control and monitoring.
+* **Automated Reconnaissance** – Domain, subdomain, and service discovery.
+* **Vulnerability Scanning** – Automated scans using Nmap, OpenVAS, and custom scripts.
+* **Exploitation Engine** – Metasploit-based automated exploitation with controlled payloads.
+* **Privilege Escalation** – Post-exploitation privilege escalation & persistence detection.
+* **AI Security Analysis** – LLaMA 3.1 for intelligent vulnerability assessment & mitigation strategies.
+* **Automated Reports** – Professional, compliance-ready PDF/HTML reports.
+* **Interactive GUI** – PyQt5-based dashboard for intuitive control and monitoring.
 
 ---
 
-## ✨ The AutoPent Advantage: A New Paradigm in Security
+## The AutoPent Advantage: A New Paradigm in Security
 
 AutoPent isn't just another security tool; it is a **first-of-its-kind framework** that fundamentally redefines automated offensive security. It bridges the critical gap between static scanning and dynamic, intelligent analysis, creating a new category of security tooling.
 
@@ -35,7 +35,7 @@ AutoPent isn't just another security tool; it is a **first-of-its-kind framework
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Languages:** Python 3.11
 * **Frameworks:** PyQt5, Flask (for backend APIs)
@@ -51,7 +51,7 @@ AutoPent isn't just another security tool; it is a **first-of-its-kind framework
 
 ---
 
-## 🔄 Methodology
+## Methodology
 
 1. **Reconnaissance** → Automated target mapping
 2. **Vulnerability Scanning** → Weakness identification
@@ -61,7 +61,7 @@ AutoPent isn't just another security tool; it is a **first-of-its-kind framework
 
 ---
 
-## 📊 Why AutoPent?
+## Why AutoPent?
 
 | Feature                     | Existing Tools | AutoPent      |
 | --------------------------- | -------------- | ------------- |
@@ -74,7 +74,7 @@ AutoPent isn't just another security tool; it is a **first-of-its-kind framework
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to get a local copy up and running.
 
@@ -111,7 +111,7 @@ Follow these steps to get a local copy up and running.
 
 ---
 
-## 💻 Usage
+## Usage
 
 1.  **Run the application from the `SourceCode` directory:**
     ```sh
@@ -126,7 +126,7 @@ Follow these steps to get a local copy up and running.
 
 ---
 
-## 🔐 Use Cases
+## Use Cases
 
 * **Cyber Forensics & Incident Response**
 * **Enterprise Security Audits**
@@ -135,14 +135,14 @@ Follow these steps to get a local copy up and running.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 AutoPent is developed **strictly for ethical and authorized penetration testing**.
 Unauthorized usage against systems without explicit permission is **illegal** and punishable under **Indian IT Act (2000/2008 amendments)** and global cybercrime laws.
 
 ---
 
-## 📌 Roadmap
+## Roadmap
 
 * [ ] Cloud Infrastructure Security Module
 * [ ] Real-time Threat Intelligence Integration
@@ -151,7 +151,7 @@ Unauthorized usage against systems without explicit permission is **illegal** an
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 * **Abhinav Mehra** – Project Lead & Developer
 * **Himanshu Gaur**
