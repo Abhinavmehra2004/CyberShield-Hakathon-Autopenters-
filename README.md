@@ -277,5 +277,9 @@ Unauthorized usage against systems without explicit permission is **illegal** an
 ## Contributors
 
 * **Abhinav Mehra**
+ Abhinavmehrasept2004@gmail.com
+www.linkedin.com/in/abhinav-mehra-356a7a333
 * **Himanshu Gaur**
+ himanshugaur1810@gmail.com
+https://www.linkedin.com/in/himanshu-gaur-305006282/
 https://github.com/Himanshu49Gaur
